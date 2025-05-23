@@ -39,6 +39,11 @@ EDA involved exploring the supply chain datasets to answer key questions, such a
 
 ### Results and Findings
 
+![2015](https://github.com/user-attachments/assets/f973f2a2-f7e1-4aa5-b635-90358cbc596b)
+![2016](https://github.com/user-attachments/assets/fca226c6-a8f1-4d01-a8f0-cd88e133ab69)
+![2017](https://github.com/user-attachments/assets/8deb4307-5404-435f-9d02-3928455b4bbf)
+
+
 #### Summary Report: 2015 - 2017
 
 1. **Year-over-Year (YoY) Sales Growth**
@@ -94,6 +99,9 @@ Top 3 product categories by % profit were consistent:
 	-	Suggests a pullback in discounting efforts, possibly due to declining profitability.
 
 ### Overall Summary
+
+![Overall](https://github.com/user-attachments/assets/73d5bfde-f821-4e65-bc82-0e83736f038a)
+
 
 1.	**Performance Highlights:**
 
