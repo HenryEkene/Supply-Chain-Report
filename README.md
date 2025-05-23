@@ -1,5 +1,15 @@
 # Supply Chain Analysis and Report
 
+## Table of Contents
+
+* [Project Overview](#project-overview)
+* [Data Sources](#data-sources)
+* [Tools](#tools)
+* [Exploratory Data Analysis](#exploratory-data-analysis)
+* [Results and Findings](#results-and-findings)
+* [Overall Summary](#overall-summary)
+* [Recommendations](#recommendations)
+
 ### Project Overview
 
 This data analysis projects focuses on supply chain analystics. The aim is to help solve **Key Shipment and Inventory Management Challenge** of a Logistics and Supply firm called *Just In Time*. By analyzing various aspects of the Supply chain Datasets, We seek to analyze supply chain inefficiencies and create insightful dasboard to inform business stakeholders about potential problems and propose structural bbusiness improvements. 
@@ -17,7 +27,7 @@ Supply Chain Dataset: The primary dataset used for this analysis is the "Supply_
 * Power Query - Data Transformation and Cleaning.
 * Power BI - Creating reports.
 
-### Exploratory Data Analysis(EDA)
+### Exploratory Data Analysis
 
 EDA involved exploring the supply chain datasets to answer key questions, such as:
   * Analyze supply versus demand ratio.
@@ -27,7 +37,7 @@ EDA involved exploring the supply chain datasets to answer key questions, such a
   * Analyze YoY sales growth.
   * Propose structural business improvements.
 
-### Results & Findings
+### Results and Findings
 
 #### Summary Report: 2015 - 2017
 
@@ -47,6 +57,7 @@ EDA involved exploring the supply chain datasets to answer key questions, such a
 **Insight:** Net Sales remained flat across all years, while profit declined in 2017. Inventory turnover peaked in 2016 but dropped in 2017.
 
 3. **Shipment Delay Trends**
+
    - **2015:** Shipment delays peaked in **January–March** with an improving trend through the year.
    - **2016:** Shipment delays started positive but dropped into negative delay territory by mid-year.
    - **2017:** Continued improvement with strong negative delay values, meaning shipments were early.
@@ -54,19 +65,23 @@ EDA involved exploring the supply chain datasets to answer key questions, such a
 **Insight:** Logistics efficiency improved year-over-year, especially in 2017.
 
 4. **Inventory Value by Month**
+
    -	**2015 & 2016:** Inventory peaks seen in **March–May**, suggesting seasonal stocking.
    -	**2017:** Sharp decline in inventory from **October to December**, indicating possible stock-outs or inventory optimization strategy.
 
 5. **Inventory & Sales Quantity Trend**
+
    -	**All years:** Inventory levels were higher than sales quantity.
    -	**2017:** A steep drop in inventory and sales from **October** hints at operational or demand disruptions.
 
 6. **Profitability by Product Category**
+
 Top 3 product categories by % profit were consistent:
 	-	**Cleats, Fishing, and Cardio Equipment, Women's Apparel** led across all years.
 	-	**CDs, Toys, Men's Clothing, Books, Basketball and Baby** were the lowest performers.
 
 7. **Customer Market Analysis**
+   
 	-	Supply consistently exceeded demand in all markets, especially in **Africa** and **Latin America(LATAM)**.
   	*	Stock Status:
 		-	All markets were marked as **Overstocked** throughout the years.
@@ -74,28 +89,38 @@ Top 3 product categories by % profit were consistent:
 	-	**Supply & Demand Ratios:** Extremely high in **Africa**, consistently signaling inefficiency.
 
 8. **Discount Trends**
+
 	-	Sum of Discounts rose from ~$1,078K (2015) to ~$1,140K (2016), but dropped to ~$907K (2017).
 	-	Suggests a pullback in discounting efforts, possibly due to declining profitability.
 
 ### Overall Summary
+
 1.	**Performance Highlights:**
+
    	-	**YoY Sales Growth: +42.89%** – Strong growth
 	-	**Total Profit: $3.8M** – High profitability
 	-	**Inventory Turnover: 31.7** – Indicates healthy inventory flow
 	-	**Net Sales: $5M** – Sales remain strong year-round
+
 2.	**Risks Identified:**
+   
    	*	Consistent overstock in **5 of 6 regions** — may lead to higher holding costs
 	*	Seasonal shipment delays in **August–October** — supply chain bottlenecks?
 	*	High discounts in LATAM & Europe – check for margin erosion
+
+### Recommendations
+
+1.	**Declining Profitability & YoY Sales in 2017** signals a need to reassess pricing, product mix, or customer strategy.
+2.	**Shipment performance improved**, which is a positive indicator for operational logistics.
+3.	**Chronic overstocking** in all regions implies misalignment in demand forecasting and procurement.
+4.	Focus on **stock optimization** in all regions.
+5.	**The end-of-year drop in inventory and sales (2017)** may be a red flag — investigate potential supply chain disruptions or demand collapses.
+6.	**High Discounts in LATAM and Europe** - check for margin erosion.
+
+
      
 
 
-
-
-✅ Recommendations:
-	1. Add fulfillment efficiency metrics (e.g., Service Level)
-	2. Focus on stock optimization in LATAM and North America
-Explore margin contribution by product-region mix![image](https://github.com/user-attachments/assets/bfb8c0c6-e63e-4d49-b31b-01e25a59fe47)
 
 
 
