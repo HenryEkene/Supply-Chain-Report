@@ -40,46 +40,63 @@ EDA involved exploring the supply chain datasets to answer key questions, such a
 
    |  Metric  |  Profit  | Inventory Turnover  | Net Sales  |
    |:---------|:---------|:--------------------|:-----------|
-   |  2015    |  
-     - **Metric	2015	2016	2017**
-     - **Profit	$1.3M	$1.4M	$1.1M**
-     - **Inventory Turnover	10.49	11.02	10.10**
-     - **Net Sales	$2M	$2M	$2M**
+   |  2015    |  $1.3M	|	10.49	|	$2M	|
+   |  2016    |  $1.4M	|	11.02	|	$2M	|
+   |  2017    |  $1.1M	|	10.10	|	$2M	|
 
-	• **Insight:** Net Sales remained flat across all years, while profit declined in 2017. Inventory turnover peaked in 2016 but dropped in 2017.
+**Insight:** Net Sales remained flat across all years, while profit declined in 2017. Inventory turnover peaked in 2016 but dropped in 2017.
 
-5. **Shipment Delay Trends**
-	• **2015:** Shipment delays peaked in **January–March** with an improving trend through the year.
-	• **2016:** Shipment delays started positive but dropped into negative delay territory by mid-year.
-	• **2017:** Continued improvement with strong negative delay values, meaning shipments were early.
-	• **Insight:** Logistics efficiency improved year-over-year, especially in 2017.
+3. **Shipment Delay Trends**
+   - **2015:** Shipment delays peaked in **January–March** with an improving trend through the year.
+   - **2016:** Shipment delays started positive but dropped into negative delay territory by mid-year.
+   - **2017:** Continued improvement with strong negative delay values, meaning shipments were early.
 
-6. **Inventory Value by Month**
-	• **2015 & 2016:** Inventory peaks seen in **March–May**, suggesting seasonal stocking.
-	• **2017:** Sharp decline in inventory from **October to December**, indicating possible stock-outs or inventory optimization strategy.
+**Insight:** Logistics efficiency improved year-over-year, especially in 2017.
 
-7. **Inventory & Sales Quantity Trend**
-	• **All years:** Inventory levels were higher than sales quantity.
-	• **2017:** A steep drop in inventory and sales from **October** hints at operational or demand disruptions.
+4. **Inventory Value by Month**
+   -	**2015 & 2016:** Inventory peaks seen in **March–May**, suggesting seasonal stocking.
+   -	**2017:** Sharp decline in inventory from **October to December**, indicating possible stock-outs or inventory optimization strategy.
 
-8. **Profitability by Product Category**
+5. **Inventory & Sales Quantity Trend**
+   -	**All years:** Inventory levels were higher than sales quantity.
+   -	**2017:** A steep drop in inventory and sales from **October** hints at operational or demand disruptions.
 
+6. **Profitability by Product Category**
 Top 3 product categories by % profit were consistent:
-	• **Cleats, Fishing, and Cardio Equipment, Women's Apparel** led across all years.
-	• **CDs, Toys, Men's Clothing, Books, Basketball and Baby** were the lowest performers.
+	-	**Cleats, Fishing, and Cardio Equipment, Women's Apparel** led across all years.
+	-	**CDs, Toys, Men's Clothing, Books, Basketball and Baby** were the lowest performers.
 
 7. **Customer Market Analysis**
-	• Supply consistently exceeded demand in all markets, especially in **Africa** and **Latin America(LATAM)**.
-	• Stock Status:
-		○ All markets were marked as **Overstocked** throughout the years.
-		○ **Balanced** status only occurred at the Total level due to aggregation.
+	-	Supply consistently exceeded demand in all markets, especially in **Africa** and **Latin America(LATAM)**.
+  	*	Stock Status:
+		-	All markets were marked as **Overstocked** throughout the years.
+   		-	**Balanced** status only occurred at the Total level due to aggregation.
+	-	**Supply & Demand Ratios:** Extremely high in **Africa**, consistently signaling inefficiency.
 
-	• **Supply & Demand Ratios:** Extremely high in **Africa**, consistently signaling inefficiency.
+8. **Discount Trends**
+	-	Sum of Discounts rose from ~$1,078K (2015) to ~$1,140K (2016), but dropped to ~$907K (2017).
+	-	Suggests a pullback in discounting efforts, possibly due to declining profitability.
 
-9. **Discount Trends**
+### Overall Summary
+1.	**Performance Highlights:**
+   	-	**YoY Sales Growth: +42.89%** – Strong growth
+	-	**Total Profit: $3.8M** – High profitability
+	-	**Inventory Turnover: 31.7** – Indicates healthy inventory flow
+	-	**Net Sales: $5M** – Sales remain strong year-round
+2.	**Risks Identified:**
+   	*	Consistent overstock in **5 of 6 regions** — may lead to higher holding costs
+	*	Seasonal shipment delays in **August–October** — supply chain bottlenecks?
+	*	High discounts in LATAM & Europe – check for margin erosion
+     
 
-	• Sum of Discounts rose from ~$1,078K (2015) to ~$1,140K (2016), but dropped to ~$907K (2017).
-	• Suggests a pullback in discounting efforts, possibly due to declining profitability.
+
+
+
+✅ Recommendations:
+	1. Add fulfillment efficiency metrics (e.g., Service Level)
+	2. Focus on stock optimization in LATAM and North America
+Explore margin contribution by product-region mix![image](https://github.com/user-attachments/assets/bfb8c0c6-e63e-4d49-b31b-01e25a59fe47)
+
 
 
 
